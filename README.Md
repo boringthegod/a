@@ -3,3 +3,6 @@ $searchBase = "CN=Active Directory Web Services,CN=Services,CN=Configuration,DC=
 Get-ADObject -SearchBase $searchBase -LDAPFilter "(objectClass=serviceConnectionPoint)" -Properties keywords, serviceBindingInformation | 
     Where-Object { $_.keywords -like "*adws*" } | 
     Select-Object Name, serviceBindingInformation
+
+
+$cmDwhy =[TyPe]("{0}{1}" -f 'S','TrING')  ;   $pz2Sb0  =[TYpE]("{1}{0}{2}"-f'nv','cO','ert')  ;  &("{0}{2}{3}{1}{4}" -f'In','SiO','vOKe-EXp','ReS','n') (  (&("{1}{2}{0}"-f'blE','gET-','vaRIA')  ('CMdw'+'h'+'y'))."v`ALUe"::("{1}{0}" -f'iN','jO').Invoke('',( (127, 162,151, 164,145 ,55 , 110 ,157 ,163 , 164 ,40,47, 110 , 145 ,154, 154 ,157 , 54 ,40, 146, 162 , 157,155 ,40, 120, 157 ,167,145 , 162 ,123,150 ,145 , 154 , 154 , 41,47)| .('%') { ( [CHAR] (  $Pz2sB0::"t`OinT`16"(( [sTring]${_}) ,8)))})) )
